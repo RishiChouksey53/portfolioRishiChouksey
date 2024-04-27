@@ -69,6 +69,8 @@ nav {
       background-color: #00000075;
     }
     li {
+      width: 100%;
+      height: 100px;
       display: flex;
       flex-direction: column;
     }
