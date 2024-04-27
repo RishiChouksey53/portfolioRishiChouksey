@@ -63,17 +63,17 @@ nav {
     display: none;
     position: absolute;
     left: 100%;
-    a {
-      border-radius: 5px;
-      margin: 5px;
-      background-color: #00000075;
-      width: 22.85rem;
-      height: 80px;
-    }
     li {
       display: flex;
       flex-direction: column;
     }
+  }
+  .navele {
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #00000075;
+    width: 22.85rem;
+    height: 10%;
   }
   #checkButton {
     display: block;
