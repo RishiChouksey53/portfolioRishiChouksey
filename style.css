@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #dda15e;
+  background-color: #000;
 }
 
 nav {
@@ -35,12 +35,13 @@ nav {
   a {
     padding: 6px 12px;
     border-radius: 5px;
+    color: white;
+    font-weight: bold;
   }
 }
 .navRight a:hover {
   transition: 0.5s;
   background-color: white;
-  color: black;
 }
 #check {
   display: none;
@@ -56,6 +57,9 @@ nav {
   font-size: 1.5rem;
 }
 @media (max-width: 610.5px) {
+  nav {
+    background-color: #e50914;
+  }
   .navRight {
     text-align: center;
     width: 100%;
@@ -66,7 +70,8 @@ nav {
     a {
       border-radius: 5px;
       margin: 5px;
-      background-color: #00000075;
+      background-color: #ffffff99;
+      color: #000;
     }
     li {
       display: flex;
@@ -127,12 +132,15 @@ nav {
   #i1 {
     color: blue;
   }
+  #i2 {
+    color: black;
+  }
   #i3 {
     color: red;
   }
 }
 .i2:hover {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .resume {
@@ -153,8 +161,11 @@ nav {
   padding: 0 20px;
 }
 .box1Img {
+  border-radius: 50%;
+  object-fit: cover;
   margin: 10px 0;
   height: 320px;
+  width: 320px;
 }
 @media (max-width: 1073.95px) {
   .box1Left {
@@ -238,7 +249,7 @@ nav {
 /**skill**/
 .box3 {
   overflow: hidden;
-  border-top: 5px dashed black;
+  border-top: 5px dashed #232323;
   padding: 72px 0;
   h1 {
     padding: 6px 12px;
@@ -262,7 +273,7 @@ nav {
   height: 350px;
   width: 584.5px;
   border-radius: 15px;
-  background-color: #606c3850;
+  background-color: #ffffff50;
   margin: 1%;
   h2 {
     color: #000;
@@ -296,7 +307,7 @@ nav {
 
 .box4 {
   overflow: hidden;
-  border-top: 5px dashed black;
+  border-top: 5px dashed #232323;
   padding: 72px 0;
   h1 {
     padding: 6px 12px;
@@ -332,7 +343,7 @@ nav {
 .box5 {
   padding: 72px 0;
   overflow: hidden;
-  border-top: 5px dashed black;
+  border-top: 5px dashed #232323;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -347,16 +358,16 @@ textarea {
   background-color: #00000050;
   border: 2px solid #ffffff75;
   border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bole;
 }
 form textarea:hover {
-  background-color: white;
-  color: #000;
-  border: 2px solid black;
+  color: #fff;
+  border: 2px solid #fff;
 }
 form input:hover {
-  background-color: white;
-  color: #000;
-  border: 2px solid black;
+  color: #fff;
+  border: 2px solid #fff;
 }
 #submit {
   padding: 6px 12px;
@@ -366,7 +377,7 @@ form input:hover {
 }
 
 #submit:hover {
-  background-color: white;
+  background-color: #ffffff50;
   color: #000;
   border: 2px solid black;
 }
@@ -375,10 +386,10 @@ footer {
   padding: 72px 2%;
   width: 100%;
   text-align: center;
-  border-top: 5px dashed black;
+  border-top: 5px dashed #232323;
 }
 #top {
-  background-color: #00000050;
+  background-color: #ffffff50;
   padding: 10px 16.7px;
   text-align: center;
   font-size: 2rem;
@@ -390,7 +401,7 @@ footer {
 }
 
 #top:hover {
-  background-color: #ffffff50;
+  background-color: #ffffff75;
   color: black;
 }
 #emailbox {
