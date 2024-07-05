@@ -42,6 +42,7 @@ nav {
 .navRight a:hover {
   transition: 0.5s;
   background-color: white;
+  color: black;
 }
 #check {
   display: none;
